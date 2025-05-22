@@ -1,0 +1,105 @@
+/* Mini Calendar CSS */
+
+/* === Body Styling === */
+body {
+  font-family: "Segoe UI", Arial, sans-serif; /* Clean, modern font */
+  background: #4c68af;                        /* Main background color */
+  margin: 0;                                   /* Remove default margin */
+  padding: 0;                                  /* Remove default padding */
+  min-height: 100vh;                           /* Full viewport height */
+  display: flex;                               /* Enable Flexbox layout */
+  flex-direction: column;                      /* Stack children vertically */
+  align-items: center;                         /* Center horizontally */
+  justify-content: flex-start;                 /* Start from top */
+  text-align: center;                          /* Center-align text */
+  overflow: hidden;                            /* Hide scrollbars */
+}
+
+/* === Header Section of Calendar === */
+.calendar-header {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;                             /* Large header text */
+  font-weight: bold;
+  width: 320px;
+  display: flex;                               /* Use Flexbox */
+  color: #481c04;                              /* Dark brown text */
+  justify-content: center;                     /* Center items horizontally */
+  align-items: center;                         /* Center items vertically */
+}
+
+/* === Calendar Container === */
+.calendar {
+  margin: 0;
+  width: 320px;                                /* Fixed width */
+  margin: 10px auto;                           /* Center horizontally with margin */
+  background: lab(100% 0.01 -0.01);            /* Light color in LAB color space */
+  display: flex;
+  flex-direction: column;                      /* Stack child elements vertically */
+  border-radius: 12px;                         /* Rounded corners */
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);   /* Soft shadow for depth */
+  overflow: hidden;                            /* Hide overflowing content */
+}
+
+/* === Month Name Style === */
+.month-name {
+  font-size: 24px;                             /* Slightly large font */
+  font-weight: bold;
+  color: #081a49;                              /* Dark navy blue text */
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;                   /* Capitalize all letters */
+  letter-spacing: 1px;                         /* Add spacing between letters */
+  line-height: 1.2;                            /* Space between lines */
+  padding: 0 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(to right, #0b1223, #b6c1dc); /* Gradient background */
+  border-radius: 12px 12px 0 0;                /* Rounded top corners */
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);   /* Slight shadow */
+  padding: 20px;                               /* Overall padding */
+}
+
+/* === Day Name (e.g., Monday) Style === */
+.day-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: darkgray;
+  margin: 0px;
+  text-align: center;
+}
+
+/* === Day Number (e.g., 21) Style === */
+.day-number {
+  font-size: 80px;         /* Very large for emphasis */
+  font-weight: bold;
+  color: #4c68af;        /* Matches the body background */
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* === Year Text Style === */
+.year {
+  margin: 20px 0;           /* Top and bottom margin */
+  font-size: 20px;
+  color: darkgray;
+  font-weight: 500;
+}
+
+/* === Calendar Footer === */
+
+.calendar-footer {
+  background-color: #f0f0f0;   /* Light gray background */
+  padding: 20px;               /* Space inside the footer */
+  text-align: center;          /* Center all text */
+  border-top: 1px solid #ccc;  /* Subtle top border */
+  font-family: Arial, sans-serif;
+  margin-top: 30px;
+}
+
+.footer-text {
+  color: #555;                 /* Medium-dark text */
+  margin: 5px 0;               /* Space between lines */
+  font-size: 14px;
+}
+
