@@ -1,2 +1,2 @@
 # Mini-Calendar
-This is an small project using HTML, CSS and JavaScript.
+This is a small project using HTML, CSS and JavaScript.
