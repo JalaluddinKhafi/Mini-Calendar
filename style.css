@@ -15,19 +15,6 @@ body {
   overflow: hidden;                            /* Hide scrollbars */
 }
 
-/* === Header Section of Calendar === */
-.calendar-header {
-  margin: 0;
-  padding: 0;
-  font-size: 30px;                             /* Large header text */
-  font-weight: bold;
-  width: 320px;
-  display: flex;                               /* Use Flexbox */
-  color: #481c04;                              /* Dark brown text */
-  justify-content: center;                     /* Center items horizontally */
-  align-items: center;                         /* Center items vertically */
-}
-
 /* === Calendar Container === */
 .calendar {
   margin: 0;
